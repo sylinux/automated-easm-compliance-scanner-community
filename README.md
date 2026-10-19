@@ -43,3 +43,23 @@ Your terminal data is clean, perfectly formatted, and ready for commercial inges
 ## 5. Legal & Licensing
 This software is officially deployed under the **MIT License**. 
 Copyright (c) 2026 sylinux. Personal target endpoints and structural network variables remain strictly confidential and uncommitted to the public repository structure.
+
+## 🔹 Commercial Licensing & Inbound Engagement Fees
+This framework is monetized under a three-tiered commercial model tailored for threat intelligence analysts, legal compliance firms, and corporate recovery agents:
+
+*   **Tier 1: Core EASM Engine Ingestion — $499 USD (Base Price)**
+    - Full access to the automated open-source passive scanning core.
+    - Standard metadata processing modules.
+    - Intended for individual developers and small-scale asset hunters.
+*   **Tier 2: Corporate Integration & Target Fingerprinting — From $2,500 USD (Fixed Setup)**
+    - Custom configuration of the passive proxy rotation matrix.
+    - Enterprise-level setup on private dedicated servers.
+    - Full architectural mapping of target state and institutional network nodes.
+*   **Tier 3: High-Value Sovereign Recovery Arbitrage — Hybrid Model**
+    - For major historical asset déshérence cases (> $100,000 USD value).
+    - Requires a **$1,000 USD upfront technical retaining fee** to deploy dedicated passive monitoring nodes.
+    - Operates on a **15% to 35% contingency fee model** upon successful manual administrative extraction.
+
+## 🔹 Legal & Licensing
+This software is officially deployed under the **MIT License**.  
+Copyright (c) 2026 sylinux. Personal target endpoints and structural network variables remain strictly confidential and uncommitted to the public repository structure.
