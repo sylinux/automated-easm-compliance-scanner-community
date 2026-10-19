@@ -1,0 +1,17 @@
+# Nmap 7.98 scan initiated Tue Sep 29 14:46:20 2026 as: nmap --script vuln -p 80,443 -oN /home/none/owasp/portscan/nmap_vuln_scripts.txt owasp.org
+Nmap scan report for owasp.org (216.150.16.65)
+Host is up (0.017s latency).
+Other addresses for owasp.org (not scanned): 216.150.1.65
+
+PORT    STATE SERVICE
+80/tcp  open  http
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+443/tcp open  https
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-aspnet-debug: ERROR: Script execution failed (use -d to debug)
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+
+# Nmap done at Tue Sep 29 14:47:55 2026 -- 1 IP address (1 host up) scanned in 94.35 seconds

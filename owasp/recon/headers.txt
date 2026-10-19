@@ -1,0 +1,29 @@
+HTTP/2 200 
+age: 23
+cache-control: public, max-age=0, must-revalidate
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://remssssfmrgmyzqnpeas.supabase.co https://*.supabase.co https://owasp.org https://dependencytrack.org https://assets.ot.digital https://images.unsplash.com https://i.ytimg.com https://img.youtube.com https://*.googleusercontent.com data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://remssssfmrgmyzqnpeas.supabase.co wss://remssssfmrgmyzqnpeas.supabase.co; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://calendar.google.com; object-src 'none'; base-uri 'self'; form-action 'self' https://accounts.google.com; frame-ancestors 'none'; upgrade-insecure-requests; report-uri /api/csp-report; report-to csp-endpoint
+content-security-policy-report-only: default-src 'self'; script-src 'self' 'strict-dynamic' 'nonce-UEnZperQzIuNVvDIftb4/A=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://remssssfmrgmyzqnpeas.supabase.co https://*.supabase.co https://owasp.org https://dependencytrack.org https://assets.ot.digital https://images.unsplash.com https://i.ytimg.com https://img.youtube.com https://*.googleusercontent.com data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://remssssfmrgmyzqnpeas.supabase.co wss://remssssfmrgmyzqnpeas.supabase.co; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://calendar.google.com; object-src 'none'; base-uri 'self'; form-action 'self' https://accounts.google.com; frame-ancestors 'none'; report-uri /api/csp-report; report-to csp-endpoint
+content-type: text/html; charset=utf-8
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+date: Tue, 29 Sep 2026 08:08:21 GMT
+etag: "17j2zptkpma2558"
+permissions-policy: camera=(), microphone=(), geolocation=(), payment=(self), interest-cohort=(), publickey-credentials-get=(self), publickey-credentials-create=(self)
+referrer-policy: strict-origin-when-cross-origin
+report-to: {"group":"csp-endpoint","max_age":10886400,"endpoints":[{"url":"https://owasp.org/api/csp-report"}]}
+reporting-endpoints: csp-endpoint="https://owasp.org/api/csp-report"
+server: Vercel
+set-cookie: owasp-locale=en; Path=/; Expires=Wed, 29 Sep 2027 18:44:37 GMT; Max-Age=31536000; SameSite=lax
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+x-powered-by: Next.js
+x-vercel-cache: HIT
+x-vercel-id: yul1::iad1::m29tn-1790707477912-2620e530c3fe
+x-xss-protection: 1; mode=block
+content-length: 99997
+

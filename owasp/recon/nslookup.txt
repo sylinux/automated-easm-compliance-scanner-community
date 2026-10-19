@@ -1,0 +1,9 @@
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	owasp.org
+Address: 216.150.16.65
+Name:	owasp.org
+Address: 216.150.1.65
+

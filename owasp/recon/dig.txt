@@ -1,0 +1,27 @@
+=== ANY ===
+;; communications error to 127.0.0.53#53: timed out
+;; communications error to 127.0.0.53#53: timed out
+;; communications error to 127.0.0.53#53: timed out
+
+; <<>> DiG 9.20.24-1ubuntu0.3-Ubuntu <<>> ANY owasp.org +noall +answer
+;; global options: +cmd
+;; no servers could be reached
+=== MX ===
+10 alt4.aspmx.l.google.com.
+5 alt1.aspmx.l.google.com.
+5 alt2.aspmx.l.google.com.
+1 aspmx.l.google.com.
+10 alt3.aspmx.l.google.com.
+=== TXT ===
+"google-site-verification=_slXlbOCopK1Ss9VQEoxdsNxpScVKvXVB_JtPpyL3eQ"
+"google-site-verification=hJ9eCIFoexfh1sb-WVBkVB5PEND3JiaojOVyaNpyWK8"
+"google-site-verification=kmxuuCvLW4gII8YaV-3ilTOLUvjZa3uaipm0tmpVGpU"
+"google-site-verification=ubHJGF1N2ylOhYxQnIzEIIFaqUodqsIdTLXF-rCX9ps"
+"v=spf1 include:_spf.google.com include:servers.mcsv.net include:amazonses.com -all"
+"MS=ms73859685"
+"RrGYbfHtHhF55ld5k5Rw87iuBu7wAWOX4GR9zffrTh4="
+"atlassian-domain-verification=BhaFKFKoRcW20xvi6UJ3U0CKocKOCgLH6LSuiBYPQ5A53cSCUN6gcbzcKSOmlVGs"
+"google-site-verification=1zT9Of9pBuTj1rgeGCxMbya3iQQMxFE9-DzUBhftUVQ"
+"google-site-verification=I9qx_X9EKlR_rfceG25-iXHBXJvLrmeNbkEdy182iI"
+=== DMARC ===
+"v=DMARC1; p=quarantine; rua=mailto:88b4c392605549efbbfedf60d5b5ba94@dmarc-reports.cloudflare.net,mailto:owasp-dmarc-reports@owasp.com"

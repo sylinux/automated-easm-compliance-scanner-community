@@ -1,0 +1,1 @@
+https://owasp.org/images/icons/quote.svg?dpl=dpl_C2SjKkpgLK2PRegMd1YT9PEvFE4o (GET)  # /usr/bin/sqlmap -u https://owasp.org/ --crawl=2 --batch --level=2 --risk=2 --random-agent --output-dir=/home/none/owasp/vulnscan/sqlmap_output/

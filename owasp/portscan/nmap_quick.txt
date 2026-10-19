@@ -1,0 +1,11 @@
+# Nmap 7.98 scan initiated Tue Sep 29 14:44:38 2026 as: nmap -T4 --top-ports 1000 --open -oN /home/none/owasp/portscan/nmap_quick.txt owasp.org
+Nmap scan report for owasp.org (216.150.1.65)
+Host is up (0.022s latency).
+Other addresses for owasp.org (not scanned): 216.150.16.65
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+# Nmap done at Tue Sep 29 14:44:43 2026 -- 1 IP address (1 host up) scanned in 5.54 seconds
