@@ -15,15 +15,54 @@ Instead of deploying hostile active port probing, the scanning engine executes a
 
 This community edition provides the open-source passive scanning core under the MIT license. For custom enterprise deployment, integration with internal SIEM platforms, or advanced network topology mapping, please contact our team via the security advisory channel.
 
-## 4. Turning the Demo Into Inbound Capital
-By publishing this exact production-grade result, you anchor your base pricing models (\$499 / \$2,500 USD) in tangible engineering reality. You show corporate buyers that your logic successfully catches real architectural failures on live public infrastructure.
+## 4. How To Use & Production Examples
 
-To monetize this traffic incoming, structure your repository's acquisition funnel with these three strategic hooks:
-* **The Animated SVG/GIF Asset:** If you can, use a tool like asciinema to record your Ubuntu Konsole running the loop for 10 seconds. Embed the moving terminal script right at the top of your README.md. A moving green terminal loop drastically increases the session duration of corporate procurement officers looking at your profile.
-* **The B2B Audit Upsell Hook:** Right beneath the demo report, insert a direct call-to-action button: "Need a stealth external exposure scan for your firm’s digital infrastructure before compliance season? Book a Custom Enterprise EASM Audit [\$2,500 USD Setup Base Fee]."
-* **The Bug Bounty Arbitrage Angle:** Explain in your documentation how penetration testers can use your scanner to find low-hanging security header vulnerabilities across thousands of domains in minutes, justifying the \$499 USD core engine licensing fee as an immediate return on investment for active bounty hunters.
+### 📋 Prerequisites
+Ensure your scanning environment has the necessary passive logging and networking utilities installed before executing the engine:
+```bash
+sudo apt update && sudo apt install -y curl dnsutils tor torsocks
+```
 
-Your terminal data is clean, perfectly formatted, and ready for commercial ingestion. The setup is fully monetizable while maintaining total cryptographic privacy over your internal networks.
+### 🚀 Quick Start
+To execute a fully compliant, passive attack surface audit against a target infrastructure topology without active packet injection or port probing, run the core engine:
+
+```bash
+# Standard local validation mode
+bash rgpd_recon_audit.sh --domain target-example.com
+
+# Stealth compliance mode (Enforces Tor proxy routing via Torsocks)
+torsocks bash rgpd_recon_audit.sh --domain target-example.com --stealth
+```
+
+### 📊 Understanding the Output Telemetry (JSON Payload)
+The architecture generates a standardized compliance audit file named `compliance_report.json`. Security operation teams can ingest this structured data directly into SIEM pipelines or monitoring dashboards:
+
+```json
+{
+  "target": "target-example.com",
+  "timestamp": "2026-10-20T05:35:00Z",
+  "easm_compliance": {
+    "clickjacking_vulnerable": true,
+    "mime_sniffing_vulnerable": true,
+    "missing_headers": [
+      "X-Frame-Options", 
+      "X-Content-Type-Options"
+    ]
+  },
+  "telemetry_metadata": {
+    "passive_scan_duration_seconds": 1.15,
+    "routing_protocol": "Tor Network (Torsocks)"
+  }
+}
+```
+
+### 🕒 Automated Continuous Monitoring (Cron Integration)
+To continuously track external network exposure and check for compliance drift over time, you can schedule the passive scanner to execute daily:
+
+```bash
+# Append this task to your system crontab to execute a quiet check every midnight
+0 0 * * * /bin/bash /path/to/rgpd_recon_audit.sh --domain target-example.com --silent >> /var/log/easm_compliance.log
+```
 
 ## 5. Legal & Licensing
 This software is officially deployed under the **MIT License**. 
