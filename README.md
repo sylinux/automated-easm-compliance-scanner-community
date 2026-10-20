@@ -11,24 +11,9 @@ Instead of deploying hostile active port probing, the scanning engine executes a
 - **Edge Security Fingerprinting:** Captures specific Mail Transfer Agent (MTA) headers, custom firewall configurations, and Proofpoint GUID tags.
 - **Inter-Ministerial Handoff Routing:** Tracks live SMTP hops and cross-department network transfers in real-time.
 
-## 3. Commercial Licensing & Inbound Engagement Fees
-This framework is monetized under a three-tiered commercial model tailored for threat intelligence analysts, legal compliance firms, and corporate recovery agents:
+## 3. Commercial Support & Enterprise Integration
 
-### 🔹 Tier 1: Core EASM Engine Ingestion — \$499 USD (Base Price)
-- Full access to the automated open-source passive scanning core.
-- Standard metadata processing modules.
-- Intended for individual developers and small-scale asset hunters.
-
-### 🔹 Tier 2: Corporate Integration & Target Fingerprinting — From \$2,500 USD (Fixed Setup)
-- Custom configuration of the passive proxy rotation matrix.
-- Enterprise-level setup on private dedicated servers.
-- Full architectural mapping of target state and institutional network nodes (Bercy/Ministries).
-- Designed for corporate legal teams and international asset recovery cabinets.
-
-### 🔹 Tier 3: High-Value Sovereign Recovery Arbitrage — Hybrid Model
-- For major historical asset déshérence cases (> \$100,000 USD value).
-- Requires a **\$1,000 USD upfront technical retaining fee** to deploy dedicated passive monitoring nodes and register active sovereign compliance files.
-- Operates on a **15% to 35% contingency fee model** upon successful manual administrative extraction.
+This community edition provides the open-source passive scanning core under the MIT license. For custom enterprise deployment, integration with internal SIEM platforms, or advanced network topology mapping, please contact our team via the security advisory channel.
 
 ## 4. Turning the Demo Into Inbound Capital
 By publishing this exact production-grade result, you anchor your base pricing models (\$499 / \$2,500 USD) in tangible engineering reality. You show corporate buyers that your logic successfully catches real architectural failures on live public infrastructure.
