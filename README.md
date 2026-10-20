@@ -11,9 +11,18 @@ Instead of deploying hostile active port probing, the scanning engine executes a
 - **Edge Security Fingerprinting:** Captures specific Mail Transfer Agent (MTA) headers, custom firewall configurations, and Proofpoint GUID tags.
 - **Inter-Ministerial Handoff Routing:** Tracks live SMTP hops and cross-department network transfers in real-time.
 
-## 3. Commercial Support & Enterprise Integration
+## 3. Commercial Support & Enterprise Inbound Engagement
 
-This community edition provides the open-source passive scanning core under the MIT license. For custom enterprise deployment, integration with internal SIEM platforms, or advanced network topology mapping, please contact our team via the security advisory channel.
+The open-source core of this Attack Surface Management framework is officially deployed under the **MIT License**. For professional deployments, automated continuous pipelines, and custom network profiling, we offer tailored corporate integration tiers:
+
+*   **Enterprise Integration & Proxy Engineering:** Custom architecture deployments, private dedicated node provisioning, and advanced proxy rotation matrices for deep perimeter validation.
+*   **Target Topology Mapping:** Comprehensive discovery and auditing profiles configured to integrate seamlessly into existing corporate SIEM pipelines.
+*   **Inbound Consultations & Retainers:** Specialized professional services for technical infrastructure validation, infrastructure hardening, and data visibility audits.
+
+### 📩 Access & Engagement Requests
+To request private access to extended diagnostic modules, report bugs, or request commercial integration support:
+1. **Corporate Inquiries:** Please open a formal inquiry through our repository's official **Security Advisory** channel or contact the maintainers directly via GitHub profiles.
+2. **Private Repository Ingestions:** Approved corporate partners will receive a secure collaborator invitation to our dedicated private validation repositories (including the `MimeMask-Compliance-Check` ecosystem).
 
 ## 4. How To Use & Production Examples
 
@@ -69,20 +78,6 @@ This software is officially deployed under the **MIT License**.
 Copyright (c) 2026 sylinux. Personal target endpoints and structural network variables remain strictly confidential and uncommitted to the public repository structure.
 
 ## 🔹 Commercial Licensing & Inbound Engagement Fees
-This framework is monetized under a three-tiered commercial model tailored for threat intelligence analysts, legal compliance firms, and corporate recovery agents:
-
-*   **Tier 1: Core EASM Engine Ingestion — $499 USD (Base Price)**
-    - Full access to the automated open-source passive scanning core.
-    - Standard metadata processing modules.
-    - Intended for individual developers and small-scale asset hunters.
-*   **Tier 2: Corporate Integration & Target Fingerprinting — From $2,500 USD (Fixed Setup)**
-    - Custom configuration of the passive proxy rotation matrix.
-    - Enterprise-level setup on private dedicated servers.
-    - Full architectural mapping of target state and institutional network nodes.
-*   **Tier 3: High-Value Sovereign Recovery Arbitrage — Hybrid Model**
-    - For major historical asset déshérence cases (> $100,000 USD value).
-    - Requires a **$1,000 USD upfront technical retaining fee** to deploy dedicated passive monitoring nodes.
-    - Operates on a **15% to 35% contingency fee model** upon successful manual administrative extraction.
 
 ## 🔹 Legal & Licensing
 This software is officially deployed under the **MIT License**.  
